@@ -1,3 +1,4 @@
 <resources>
   <string name="app_name">Percent</string>
+  <string name="long_string">This is a test with a long string which we expect to wrap on to multiple lines to show wrap_content behaviour</string>
 </resources>

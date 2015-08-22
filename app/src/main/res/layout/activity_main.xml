@@ -5,6 +5,33 @@
   android:layout_height="match_parent"
   tools:context=".MainActivity">
 
+  <TextView
+    style="@style/Base.TextAppearance.AppCompat.Title"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:background="@color/light_grey"
+    android:gravity="center_horizontal"
+    android:padding="8dp"
+    android:text="@string/long_string"
+    app:layout_heightPercent="10%"
+    app:layout_marginLeftPercent="10%"
+    app:layout_marginStartPercent="10%"
+    app:layout_widthPercent="35%" />
+
+  <TextView
+    style="@style/Base.TextAppearance.AppCompat.Title"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:background="@color/light_grey"
+    android:gravity="center_horizontal"
+    android:padding="8dp"
+    android:text="@string/long_string"
+    app:layout_marginEndPercent="10%"
+    app:layout_marginRightPercent="10%"
+    app:layout_widthPercent="35%" />
+
   <View
     android:id="@+id/first"
     android:background="@color/sa_green_dark"
